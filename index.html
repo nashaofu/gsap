@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>GASP</title>
+    <link rel="stylesheet" type="text/css" href="css/gsap.css">
+</head>
+<body>
+<audio src="sound/in_the_rain.mp3" autoplay loop></audio>
+<div class="container">
+    <!-- 远处背景(山) -->
+    <img class="background" src="images/background.jpg">
+    <!-- 远处的云 -->
+    <img class="cloud-bg" src="images/cloud-bg.png">
+    <img class="cloud-bg2" src="images/cloud-bg.png">
+    <!-- 移动的人物 -->
+    <div class="castle-container">
+        <div class="castle">
+            <!-- 前面的腿(内侧) -->
+            <div class="frleg">
+                <img class="frfoot" src="images/frfoot.png" />
+                <img class="frbottom" src="images/frbottom.png" />
+            </div>
+            <!-- 后面的腿(内侧) -->
+            <div class="brleg">
+                <img class="brfoot" src="images/brfoot.png" />
+                <img class="brbottom" src="images/brbottom.png" />
+            </div>
+            <!-- 最上面的烟囱 -->
+            <img class="chimney3" src="images/chimney3.png" />
+            <!-- 树屋 -->
+            <img class="treehouse" src="images/treehouse.png" />
+            <!-- 背上背着的房子 -->
+            <div class="houses-group">
+                <img class="point6" src="images/point6.png" />
+                <img class="point5" src="images/point5.png" />
+                <img class="point4" src="images/point4.png" />
+                <img class="houses" src="images/houses.png" />
+            </div>
+            <!-- 最低的烟囱 -->
+            <img class="chimney2" src="images/chimney2.png" />
+            <!-- 最外侧烟囱 -->
+            <img class="chimney1" src="images/chimney1.png" />
+            <!-- 尾巴 -->
+            <img class="wing" src="images/wing.png" />
+            <!-- 头部 -->
+            <div class="mound-group">
+                <img class="antenna" src="images/antenna.png" />
+                <img class="point3" src="images/point3.png" />
+                <img class="point2" src="images/point2.png" />
+                <img class="point1" src="images/point1.png" />
+                <img class="mound" src="images/mound.png" />
+            </div>
+            <!-- 向后伸的铁架 -->
+            <img class="wind" src="images/wind.png" />
+            <!-- 腹部内侧装饰 -->
+            <img class="cannon" src="images/cannon.png" />
+            <!-- 主体结构 -->
+            <img class="main" src="images/main.png" />
+            <!-- 腰部旋转装饰 -->
+            <img class="knob" src="images/knob.png" />
+            <!-- 腹部外侧装饰 -->
+            <img class="tele" src="images/tele.png" />
+            <!-- 腹部外侧装饰覆盖图片 -->
+            <img class="telecover" src="images/telecover.png" />
+            <!-- 前面的腿(外) -->
+            <div class="flleg">
+                <div class="flbottom-group">
+                    <img class="flfoot" src="images/flfoot.png" />
+                    <img class="flbottom" src="images/flbottom.png" />
+                </div>
+                <img class="fltop" src="images/fltop.png" />
+            </div>
+            <!-- 前面的腿部连接处遮盖(外) -->
+            <img class="flcover" src="images/flcover.png" />
+            <!-- 后面的腿(外) -->
+            <div class="blleg">
+                <div class="blbottom-group">
+                    <img class="blfoot" src="images/flfoot.png" />
+                    <img class="blbottom" src="images/flbottom.png" />
+                </div>
+                <img class="bltop" src="images/fltop.png" />
+            </div>
+            <!-- 后面的腿部连接处遮盖(外) -->
+            <img class="blcover" src="images/blcover.png" />
+        </div>
+    </div>
+    <!-- 草地 -->
+    <img class="foreground" src="images/foreground.png">
+    <!-- 开场动画(云) -->
+    <div class="clouds">
+        <img class="cloud-shadow1" src="images/cloud_shadow-1.png">
+        <img class="cloud-shadow2" src="images/cloud_shadow-1.png">
+        <img class="cloud-shadow3" src="images/cloud_shadow-1.png">
+        <img class="cloud1" src="images/cloud-1.png">
+        <img class="cloud2" src="images/cloud-1.png">
+        <img class="cloud3" src="images/cloud-2.png">
+        <img class="cloud4" src="images/cloud-1.png">
+        <img class="cloud5" src="images/cloud-2.png">
+    </div>
+</div>
+<div class="control-toggle">Toggle mouse controls</div>
+<div class="load-gate">Loading...</div>
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="gsap/TweenMax.js"></script>
+<script type="text/javascript" src="js/gsap.js"></script>
+</body>
+</html>
